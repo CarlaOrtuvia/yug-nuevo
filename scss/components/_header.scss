@@ -1,0 +1,16 @@
+.div-contenedor {
+    background-color:nth($colores, 2);
+    display: flex;
+    justify-content: center;
+
+    .logo-yug {
+        width: 150px;
+    }
+}
+
+
+.fondo-nav{
+    background-color:nth($colores, 4);
+    margin-left: 350px;
+    
+}

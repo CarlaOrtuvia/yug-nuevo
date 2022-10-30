@@ -1,0 +1,66 @@
+.carrousel.index {
+    width: 100%;
+    height: auto;
+    background-image: cover;
+}
+
+.contenedor-texto {
+    color:nth($colores, 1);
+    font-family: 'Poppins', sans-serif;
+    margin-top: 55px;
+    margin-bottom: 65px;
+
+
+
+    .titulo-inicial {
+        margin-left: 450px;
+        margin-top: 65px;
+        margin-bottom: 45px;
+        @media screen and (max-width:450px) {
+            margin-left: 25px;
+        }
+       
+       
+    }
+    .texto-descripcion{
+        margin-left: 75px;
+        margin-right: 75px;
+        margin-top: 75px;
+    }
+   
+   }
+   .bloque-division{
+    background-color:nth($colores, 3);
+    color:nth($colores, 1);
+   @include display-flex;
+    margin-bottom: 25px;
+    
+
+    .texto-bloque{
+        justify-items: center;
+        margin-top: 25px;
+    }
+    .imagen-flores{
+        width: 75px;
+    }
+   }
+   
+    .formas-contacto{
+        background-color:nth($colores, 2);
+        color:nth($colores, 3);
+        @include flex;
+
+       .titulo-contacto{
+        margin-top: 15px;
+        
+       }
+        
+
+        .img-redes{
+            width: 75px;
+            height: auto;
+            padding: 10px;
+           
+        }
+
+    }

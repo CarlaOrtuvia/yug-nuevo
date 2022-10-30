@@ -1,0 +1,40 @@
+.imagen-quinta{
+    width: 350px;
+margin-left: 550px;
+
+@media screen and (max-width:450px) {
+    margin-left: 35px;
+}
+
+
+}
+.titulo-accesorio{
+    color: #7f8c8d;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 55px;
+    margin-bottom: 65px;
+    margin-left: 35px;
+}
+.parrafo-explicativo{
+    color: #7f8c8d;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+.parrafo-siguiente{
+    color: #7f8c8d;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    margin-bottom: 65px;
+}
+.imageLogo{
+    width: 55px;
+    padding: 10px;
+}
+.elementos-carta{
+    display: flex;
+    justify-content: space-around;
+}

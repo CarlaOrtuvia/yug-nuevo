@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;1,300&family=Poppins:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.div-contenedor {
+  background-color: #fabb51;
+  display: flex;
+  justify-content: center;
+}
+.div-contenedor .logo-yug {
+  width: 150px;
+}
+
+.fondo-nav {
+  background-color: #faedc6;
+  margin-left: 350px;
+}
+
+.contenedor-final {
+  background-color: #3e8e7e;
+  color: #181818;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.contenedor-final .imagen-contactos {
+  width: 55px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.carrousel.index {
+  width: 100%;
+  height: auto;
+  background-image: cover;
+}
+
+.contenedor-texto {
+  color: #7f8c8d;
+  font-family: "Poppins", sans-serif;
+  margin-top: 55px;
+  margin-bottom: 65px;
+}
+.contenedor-texto .titulo-inicial {
+  margin-left: 450px;
+  margin-top: 65px;
+  margin-bottom: 45px;
+}
+@media screen and (max-width: 450px) {
+  .contenedor-texto .titulo-inicial {
+    margin-left: 25px;
+  }
+}
+.contenedor-texto .texto-descripcion {
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-top: 75px;
+}
+
+.bloque-division {
+  background-color: #7dc1b8;
+  color: #7f8c8d;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.bloque-division .texto-bloque {
+  justify-items: center;
+  margin-top: 25px;
+}
+.bloque-division .imagen-flores {
+  width: 75px;
+}
+
+.formas-contacto {
+  background-color: #fabb51;
+  color: #7dc1b8;
+  display: flex;
+  justify-content: center;
+}
+.formas-contacto .titulo-contacto {
+  margin-top: 15px;
+}
+.formas-contacto .img-redes {
+  width: 75px;
+  height: auto;
+  padding: 10px;
+}
+
+.imagen-quinta {
+  width: 350px;
+  margin-left: 550px;
+}
+@media screen and (max-width: 450px) {
+  .imagen-quinta {
+    margin-left: 35px;
+  }
+}
+
+.titulo-accesorio {
+  color: #7f8c8d;
+  font-family: "Poppins", sans-serif;
+  margin-top: 55px;
+  margin-bottom: 65px;
+  margin-left: 35px;
+}
+
+.parrafo-explicativo {
+  color: #7f8c8d;
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+}
+
+.parrafo-siguiente {
+  color: #7f8c8d;
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+  margin-bottom: 65px;
+}
+
+.imageLogo {
+  width: 55px;
+  padding: 10px;
+}
+
+.elementos-carta {
+  display: flex;
+  justify-content: space-around;
+}
+
+.terapia-imagenes {
+  width: 350px;
+  margin-left: 550px;
+}
+@media screen and (max-width: 450px) {
+  .terapia-imagenes {
+    margin-left: 35px;
+  }
+}
+
+.titulo-accesorio {
+  color: #7f8c8d;
+  font-family: "Poppins", sans-serif;
+  margin-top: 55px;
+  margin-bottom: 65px;
+  margin-left: 35px;
+}
+
+.parrafo-explicativo {
+  color: #7f8c8d;
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+}
+
+.parrafo-siguiente {
+  color: #7f8c8d;
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+  margin-bottom: 65px;
+}
+
+.imageLogo {
+  width: 55px;
+  padding: 10px;
+}
+
+.elementos-carta {
+  display: flex;
+  justify-content: space-around;
+}
+
+.terapia-imagenes {
+  width: 350px;
+  margin-left: 550px;
+}
+@media screen and (max-width: 450px) {
+  .terapia-imagenes {
+    margin-left: 35px;
+  }
+}
+
+.titulo-accesorio {
+  color: #7f8c8d;
+  font-family: "Poppins", sans-serif;
+  margin-top: 55px;
+  margin-bottom: 65px;
+  margin-left: 35px;
+}
+
+.parrafo-explicativo {
+  color: #7f8c8d;
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+}
+
+.parrafo-siguiente {
+  color: #7f8c8d;
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+  margin-bottom: 65px;
+}
+
+.imageLogo {
+  width: 55px;
+  padding: 10px;
+}
+
+.terapia-imagenes {
+  width: 350px;
+  margin-left: 550px;
+}
+@media screen and (max-width: 450px) {
+  .terapia-imagenes {
+    margin-left: 35px;
+  }
+}
+
+.titulo-accesorio {
+  color: #7f8c8d;
+  font-family: "Poppins", sans-serif;
+  margin-top: 55px;
+  margin-bottom: 65px;
+  margin-left: 35px;
+}
+
+.parrafo-explicativo {
+  color: #7f8c8d;
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+}
+
+.parrafo-siguiente {
+  color: #7f8c8d;
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+  margin-bottom: 65px;
+}
+
+.imageLogo {
+  width: 55px;
+  padding: 10px;
+}
+
+.elementos-carta {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*# sourceMappingURL=style.css.map */
